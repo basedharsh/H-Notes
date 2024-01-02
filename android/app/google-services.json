@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "974581166460",
+    "project_id": "hnotes-a08d2",
+    "storage_bucket": "hnotes-a08d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974581166460:android:44dc24c40bff9a5df734f9",
+        "android_client_info": {
+          "package_name": "com.example.hnotes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAScn83G3-RhMdtzTjYqKnoNwJqQP1Lroc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
