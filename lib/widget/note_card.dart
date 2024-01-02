@@ -16,6 +16,7 @@ Widget noteCard(Function()? onTap, QueryDocumentSnapshot doc) {
           Text(
             doc["note_title"],
             style: AppStyle.mainTitle,
+            overflow: TextOverflow.ellipsis,
           ),
           SizedBox(height: 4),
           Text(
@@ -25,7 +26,7 @@ Widget noteCard(Function()? onTap, QueryDocumentSnapshot doc) {
           SizedBox(height: 8),
           Text(doc["note_content"],
               style: AppStyle.mainContent,
-              maxLines: 2,
+              maxLines: 1,
               overflow: TextOverflow.ellipsis),
         ])),
   );

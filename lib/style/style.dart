@@ -6,18 +6,18 @@ class AppStyle {
 
   //title
   static TextStyle mainTitle =
-      TextStyle(fontSize: 18, fontWeight: FontWeight.bold);
+      TextStyle(fontSize: 28, fontWeight: FontWeight.bold);
 
   //content
   static TextStyle mainContent = GoogleFonts.nunito(
-    fontSize: 16,
-    fontWeight: FontWeight.normal,
+    fontSize: 20,
+    fontWeight: FontWeight.w700,
   );
 
   //DateTitle
   static TextStyle subTitle = GoogleFonts.roboto(
-    fontSize: 13,
-    fontWeight: FontWeight.w400,
+    fontSize: 17,
+    fontWeight: FontWeight.w600,
   );
 
   //For color style
